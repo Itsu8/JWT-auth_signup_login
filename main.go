@@ -6,12 +6,12 @@ import (
 	"github.com/Itsu8/Auth/router"
 )
 
-func init(){
+func init() {
 	initializers.LoadEnvVariables()
 	initializers.ConnectToDB()
 	initializers.DB.AutoMigrate(&modules.User{})
 }
 
-func main(){
+func main() {
 	router.RunServer()
 }
