@@ -1,7 +1,7 @@
 
 
 Description:
-Simple web-application made for educational purpose with login and registration features
+Simple web-application made for educational purpose with login and registration features and PostgeSQL database storage
 
 Safety:
 Password hashing to enhance the security of user credentials.
