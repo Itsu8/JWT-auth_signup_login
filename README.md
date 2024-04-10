@@ -1,4 +1,4 @@
-Simple application made for educational purpose 
+
 
 Description:
 Simple web-application made for educational purpose with login and registration features
